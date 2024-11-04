@@ -82,4 +82,25 @@ Rota protegida por JWT, retorna os dados JSON da aba Exportação.
 ## Exemplo de Resposta ##
 
 ```
+{
+  "aba": "PRODUCAO",
+  "ano": "1997",
+  "categoria": "DERIVADOS",
+  "produto": "Espumante",
+  "quantidade_lt": 0
+},
+{
+  "aba": "PRODUCAO",
+  "ano": "1997",
+  "categoria": "DERIVADOS",
+  "produto": "Espumante moscatel",
+  "quantidade_lt": 0
+},
+{
+  "aba": "PRODUCAO",
+  "ano": "1997",
+  "categoria": "DERIVADOS",
+  "produto": "Base espumante",
+  "quantidade_lt": 0
+}...
 ```
