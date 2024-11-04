@@ -50,6 +50,8 @@ python3 main.py
 ```
 
 As rotas estão protegidas pelo JWT.
+Não esqueça de disponibilizar no seu código interno um arquivo ".env" com as credenciais que deseja utilizar.
+Sendo elas: "JWT_SECRET_KEY", "USERNAME_API", "PASSWORD_API".
 
 ## Endpoints ##
 
@@ -67,6 +69,11 @@ Rota protegida por JWT, retorna os dados JSON da aba Comercialização.
 
 - **/importacao**
 Rota protegida por JWT, retorna os dados JSON da aba Importação.
+
+## Exemplo de Resposta ##
+
+```
+```
 
 - **/exportacao**
 Rota protegida por JWT, retorna os dados JSON da aba Exportação.
