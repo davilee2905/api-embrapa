@@ -1,5 +1,6 @@
 ## Api-embrapa (tech challenge)
 Esta API é um projeto TECH Challenge da Pós-TECH FIAP, aqui, os dados são extraídos diretamente do site da Embrapa e disponibilizados em formato JSON.
+Cada rota descrita no projeto possui 2 formas de extração, sendo a primeira a partir do site, utilizando o BeautifulSoup ou pelo link de download CSV.
 
 ## Estrutura do projeto
 ```
@@ -48,4 +49,24 @@ pip install -r requirements.txt
 python3 main.py
 ```
 
+As rotas estão protegidas pelo JWT.
+
 ## Endpoints ##
+
+- **/login**
+Esta rota está disponível por conta da autenticação JWT, utilizada para obter o token de acesso.
+
+- **/producao**
+Rota protegida por JWT, retorna os dados JSON da aba Produção.
+
+- **/processamento**
+Rota protegida por JWT, retorna os dados JSON da aba Processamento.
+
+- **/comercializacao**
+Rota protegida por JWT, retorna os dados JSON da aba Comercialização.
+
+- **/importacao**
+Rota protegida por JWT, retorna os dados JSON da aba Importação.
+
+- **/exportacao**
+Rota protegida por JWT, retorna os dados JSON da aba Exportação.
