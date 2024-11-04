@@ -70,10 +70,10 @@ Rota protegida por JWT, retorna os dados JSON da aba Comercialização.
 - **/importacao**
 Rota protegida por JWT, retorna os dados JSON da aba Importação.
 
+- **/exportacao**
+Rota protegida por JWT, retorna os dados JSON da aba Exportação.
+
 ## Exemplo de Resposta ##
 
 ```
 ```
-
-- **/exportacao**
-Rota protegida por JWT, retorna os dados JSON da aba Exportação.
