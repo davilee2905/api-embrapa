@@ -17,3 +17,8 @@ api-embrapa/
 └── requirements.txt
 ```
 
+## Tecnologias Utilizadas ##
+
+- **Linguagem:** Python
+- **Framework:** Flask
+- **Bibliotecas:** Requests, flask_jwt_extended, pandas, python-dotenv, beautifulsoup4.
