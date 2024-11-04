@@ -39,12 +39,18 @@ source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate     # Windows
 ```
 
-3. Instale as dependências.
+3. Navegue até o repositório.
+
+```
+cd api-embrapa
+```
+
+4. Instale as dependências.
 ```
 pip install -r requirements.txt
 ```
 
-4. Rode a API.
+5. Rode a API.
 ```
 python3 main.py
 ```
